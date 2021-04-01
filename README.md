@@ -20,7 +20,7 @@ We observe that the increase of noise level positively correlates to the decreas
 |                   | VOT2019<br>A / R / EAO  |  VOT2018<br>A / R / EAO  | VOT2016<br>A / R / EAO | VOT2018lt <br> F-score| OTB2015<br>OP / DP| NFS30<br>OP / DP| 
 | ------------------| :--------------------:  | :----:  |:----: |:----: |:----: |:----: |
 | SiamRPN++         | 0.596 / 0.472 / 0.287   |  0.602 / 0.239 / 0.413   |0.643 / 0.200 / 0.461|  0.625 | 0.695 / 0.905    | 0.509 / 0.601    |
-| SiamRPN++(Random) | 0.591 / 0.727 / 0.220   |  0.587 / 0.365 / 0.301   |0.632 / 0.340 / 0.331|  0.552 | 0.631 / 0.818    | 0.466 / 0.550    |
+| SiamRPN++(Random) | 0.591 / 0.727 / 0.220   |  0.587 / 0.365 / 0.301   |0.632 / 0.340 / 0.331|  0.553 | 0.631 / 0.818    | 0.466 / 0.550    |
 | SiamRPN++(Attack) | 0.575 / 1.575 / 0.124   |  0.568 / 1.171 / 0.129   |0.605 / 0.802 / 0.183|  0.453 | 0.499 / 0.644    | 0.394 / 0.446    |
 
 
@@ -34,9 +34,9 @@ We observe that the increase of noise level positively correlates to the decreas
  #### Result for LTMU on multiple datasets
 |                   | VOT2019<br>A / R / EAO  |  VOT2018<br>A / R / EAO  | VOT2016<br>A / R / EAO | VOT2018ltT <br> F-score| OTB2015<br>OP / DP| NFS30<br>OP / DP| 
 | ------------------| :--------------------:  | :----:  |:----: |:----: |:----: |:----: |
-| LTMU              | 0.625 / 0.913 / 0.201   |  0.624 / 0.702 / 0.195   |0.622 / 0.214 / 0.236|  0.691 | 0.672 / 0.872    | 0.631 / 0.764    |
-| LTMU(Random)      | 0.623 / 1.073 / 0.175   |  0.622 / 0.805 / 0.178   |0.606 / 0.303 / 0.233|  0.657 | 0.622 / 0.815    | 0.579 / 0.699    |
-| LTMU(Attack)      | 0.576 / 1.470 / 0.150   |  0.590 / 1.320 / 0.120   |0.521 / 1.631 / 0.170|  0.589 | 0.517 / 0.712    | 0.462 / 0.559    |
+| LTMU              | 0.625 / 0.913 / 0.201   |  0.624 / 0.702 / 0.195   |0.661 / 0.522 / 0.236|  0.691 | 0.672 / 0.872    | 0.631 / 0.764    |
+| LTMU(Random)      | 0.623 / 1.073 / 0.175   |  0.622 / 0.805 / 0.178   |0.646 / 0.592 / 0.233|  0.657 | 0.622 / 0.815    | 0.579 / 0.699    |
+| LTMU(Attack)      | 0.576 / 1.470 / 0.150   |  0.590 / 1.320 / 0.120   |0.604 / 0.904 / 0.170|  0.589 | 0.517 / 0.712    | 0.462 / 0.559    |
 
 :herb: **All raw results are available.**  [[Google_drive]](https://drive.google.com/drive/folders/1WjYJzsLEJZkB1dw-17ZLJNYZ9THK-jL4?usp=sharing)  [[Baidu_Disk]](https://pan.baidu.com/s/1HD5LEQfWvC0bV7xxW_jY-A) Code: c7ew
 
