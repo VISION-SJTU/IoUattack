@@ -8,7 +8,7 @@ Shuai Jia, Yibing Song, Chao Ma and Xiaokang Yang
 
 ## Introduction
 
-<img src="https://github.com/joshuajss/RTAA/blob/master/demo/visualization.png" width='700'/><br/>
+<img src="https://github.com/VISION-SJTU/IoUattack/blob/main/demo/intro.png" width='500'/><br/>
 
 We observe that the increase of noise level positively correlates to the decrease of IoU scores, but their directions are not exactly the same.
 - Our IoU attack seeks to inject the lowest amount of noisy perturbations at the same contour line of IoU score for each iteration.
@@ -21,8 +21,8 @@ We observe that the increase of noise level positively correlates to the decreas
 
 ## Demo
 
-<img src="https://github.com/VISION-SJTU/IoUattack/blob/main/demo/car_clean.gif" width='500'/>   <img src="https://github.com/VISION-SJTU/IoUattack/blob/main/demo/car_attack.gif" width='500'/><br/>
-&emsp; &emsp;&emsp;&emsp;&emsp;&emsp; <img src="https://github.com/joshuajss/RTAA/blob/master/demo/legend.png" width='400'/><br/>
+<img src="https://github.com/VISION-SJTU/IoUattack/blob/main/demo/car_clean.gif" width='300'/>   <img src="https://github.com/VISION-SJTU/IoUattack/blob/main/demo/car_attack.gif" width='300'/><br/>
+&emsp; &emsp;&emsp;&emsp;&emsp;&emsp; <img src="https://github.com/VISION-SJTU/IoUattack/blob/main/demo/legend.png" width='300'/><br/>
 
 
 ## Citation
