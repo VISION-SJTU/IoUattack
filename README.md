@@ -38,12 +38,33 @@ We observe that the increase of noise level positively correlates to the decreas
 | LTMU(Random)      | 0.623 / 1.073 / 0.175   |  0.622 / 0.805 / 0.178   |0.646 / 0.592 / 0.233|  0.657 | 0.622 / 0.815    | 0.579 / 0.699    |
 | LTMU(Attack)      | 0.576 / 1.470 / 0.150   |  0.590 / 1.320 / 0.120   |0.604 / 0.904 / 0.170|  0.589 | 0.517 / 0.712    | 0.462 / 0.559    |
 
-:herb: **All raw results are available.**  [[Google_drive]](https://drive.google.com/drive/folders/1WjYJzsLEJZkB1dw-17ZLJNYZ9THK-jL4?usp=sharing)  [[Baidu_Disk]](https://pan.baidu.com/s/1HD5LEQfWvC0bV7xxW_jY-A) Code: c7ew
+:herb: **All raw results are available.**  [[Google_drive]](https://drive.google.com/drive/folders/1WjYJzsLEJZkB1dw-17ZLJNYZ9THK-jL4?usp=sharing)
 
 
 ## Code
+:herb: **The code of IoU attack for SiamRPN++ is released!!**
+- You should put the datasets into ```pysot/testing_dataset``` folder.
+- Please download the pretrained model and set the environments of SiamPRN++.
+- See [SiamRPN++](https://github.com/STVIR/pysot) for more details.
 
-- The code will be released soon!! :star: :star: :star:
+Test the original performance on VOT2018 dataset, please use the following command.
+```
+cd pysot/experiments/siamrpn_r50_l234_dwxcorr
+python -u ../../tools/test_original.py 	\
+	--snapshot model.pth 	\ # model path
+	--dataset VOT2018 	\ # dataset name
+	--config config.yaml	  # config file
+```
+Test IoU attack on VOT2018 dataset, please use the following command.
+```
+cd pysot/experiments/siamrpn_r50_l234_dwxcorr
+python -u ../../tools/test_IoU_attack.py 	\
+	--snapshot model.pth 	\ # model path
+	--dataset VOT2018 	\ # dataset name
+	--config config.yaml	  # config file
+```
+
+For the adversarial attack of other datasets, you should change the dataset name as mentioned above.
 
 ## Demo
 
@@ -63,6 +84,18 @@ If any part of our paper and code is helpful to your work, please generously cit
 ```
 
 Thank you :)
+
+## Reference
+We choose three representative trackers, SiamRPN++, DiMP and LTMU. 
+The original code of these trackers are list as follows:
+- SiamRPN++: https://github.com/STVIR/pysot
+- DiMP: https://github.com/visionml/pytracking
+- LTMU: https://github.com/Daikenan/LTMU
+
+We also refer to the code of Boundary Attack for IoU attack.
+- Boundary Attack: https://github.com/greentfrapp/boundary-attack
+
+Thanks for their wonderful works!
 
 ## License
 Licensed under an MIT license.
